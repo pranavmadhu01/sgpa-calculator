@@ -57,5 +57,10 @@ button {
   background-color: greenyellow;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 20px;;
+  font-size: 20px;
+}
+.result_display {
+  color: white;
+  text-transform: uppercase;
+  color: white;
 }
