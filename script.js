@@ -2,7 +2,6 @@ function onHandleSubmit(e) {
   e.preventDefault();
   let product = 0.0;
   let creditSum = 0;
-  console.log(e.path[0]);
   for (var i = 1; i < 7; i++) {
     product +=
       parseFloat(e.path[0].children[i].children[0].value) *
